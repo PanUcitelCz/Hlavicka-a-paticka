@@ -26,25 +26,29 @@ header{
 }
 
 main{
-    height: 600px;
+    /*height: 600px;*/
 }
 
 footer{
-    background-color: rgb(40, 39, 39);
-    padding: 36px;
+    background-color: rgb(78, 75, 75);
     display: flex;
     justify-content: center;
-    align-items: center;
-    color: white;
-    flex-direction: column;
-    gap: 30px;
 }
 
-.links{
+footer .wrapper{
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 36px;
+}
+
+.icons{
     display: flex;
     justify-content: space-between;
-    max-width: 1300px;
-    padding: 10px 36px;
-    gap: 30px;
-    border-bottom: 1px solid white;
+    width: 300px;
+}
+
+svg:hover{
+    fill: red;
 }

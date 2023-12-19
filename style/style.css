@@ -49,6 +49,10 @@ footer .wrapper{
     width: 300px;
 }
 
+svg{
+    transition:  .3s ease;
+}
+
 svg:hover{
-    fill: red;
+    fill: red; 
 }
